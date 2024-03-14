@@ -1,4 +1,4 @@
-const Header = ({ handleDarkMode, isDark }) => {
+const Header = ({ handleDarkMode, theme }) => {
     return (
         <div className="bg-gray-100 transition-all duration-200 dark:bg-black-400 flex justify-between items-center pr-right pl-left pt-9 pb-[154px] rounded-b-[20px]">
             <div>
@@ -11,7 +11,7 @@ const Header = ({ handleDarkMode, isDark }) => {
                     onClick={handleDarkMode} 
                     className="relative h-[24px] w-12 rounded-full bg-gray-400 cursor-pointer hover:bg-gradient-to-tr hover:from-blue-100 hover:to-green-100 dark:bg-gradient-to-tr dark:from-blue-100 dark:to-green-100"
                 >
-                    <div className={`absolute h-[18px] w-[18px] transition-all duration-200 bg-gray-200 dark:bg-black-300 rounded-full top-[2.6px] ${ isDark ? "left-[3px]" : "left-[27px]"}`}></div>
+                    <div className={`absolute h-[18px] w-[18px] transition-all duration-200 bg-gray-200 dark:bg-black-300 rounded-full top-[2.6px] ${ theme === "dark" ? "left-[3px]" : "left-[27px]"}`}></div>
                 </div>
             </div>
         </div>
