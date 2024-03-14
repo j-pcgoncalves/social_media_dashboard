@@ -9,6 +9,8 @@ module.exports = {
         "black": {
           100: "#63687D",
           200: "#1D1F29",
+          300: "#333A55",
+          400: "#20222F",
         },
         "gray": {
           100: "#F7F9FF",
@@ -16,6 +18,7 @@ module.exports = {
           300: "#E1E4F0",
           400: "#AEB3CB",
           500: "#848BAB",
+          600: "#8C98C6",
         },
         "green": {
           100: "#40DB82",
@@ -38,6 +41,10 @@ module.exports = {
       },
       fontFamily: {
         inter: ["'Inter'"]
+      },
+      padding: {
+        "left": "162px",
+        "right": "162px",
       }
     },
   },
