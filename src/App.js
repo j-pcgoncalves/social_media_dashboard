@@ -1,6 +1,7 @@
 function App() {
   return (
-    <div>
+    <div className="font-inter">
+      <p>Teste</p>
     </div>
   );
 }
