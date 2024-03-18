@@ -1,4 +1,4 @@
-# CRWN Clothing
+# Social Media Dashboard
 
 This is a simple project built in React and Tailwind CSS. It integrates with Local Storage to save the user's theme preference, to toggle between Dark and Light Mode.
 
