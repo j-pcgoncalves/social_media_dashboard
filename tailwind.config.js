@@ -46,6 +46,8 @@ module.exports = {
       padding: {
         "left": "162px",
         "right": "162px",
+        "left-mobile": "25px",
+        "right-mobile": "25px"
       }
     },
   },

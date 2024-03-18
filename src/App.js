@@ -30,10 +30,10 @@ const App = () => {
     <div className={`dark:bg-black-200 font-inter pb-[75px] ${ theme === "dark" && "dark" }`}>
       <Header handleDarkMode={handleDarkMode} theme={theme} />
 
-      <div className="pl-left pr-right mt-9">
+      <div className="pl-left-mobile pr-right-mobile md:pl-left md:pr-right mt-9">
         <p className="font-bold text-2xl text-black-100 mb-6 dark:text-white">Overview - Today</p>
 
-        <div className="grid lg:grid-cols-4 gap-x-[30px] gap-y-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-[30px] gap-y-6">
           <CardToday
             title="Page Views"
             icon={() => <FacebookIcon />}
